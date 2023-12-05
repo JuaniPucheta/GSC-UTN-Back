@@ -1,3 +1,5 @@
+using Patterns.Api.Domain;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -7,6 +9,11 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddTransient(m => new Combo1());
+builder.Services.AddTransient(m => new Combo2());
+builder.Services.AddTransient(m => new Combo3());
+
+builder.Services.AddTransient<IComboFactory, ComboFactory>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
