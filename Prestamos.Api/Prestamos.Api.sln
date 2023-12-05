@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prestamos.Api", "Prestamos.Api\Prestamos.Api.csproj", "{9EFC1480-9EAD-4C3A-A29B-22C116A86596}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Prestamos.Db", "Prestamos.Db\Prestamos.Db.sqlproj", "{AD046470-6746-4A73-8B5F-7035283B6057}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9EFC1480-9EAD-4C3A-A29B-22C116A86596}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EFC1480-9EAD-4C3A-A29B-22C116A86596}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EFC1480-9EAD-4C3A-A29B-22C116A86596}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EFC1480-9EAD-4C3A-A29B-22C116A86596}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD046470-6746-4A73-8B5F-7035283B6057}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD046470-6746-4A73-8B5F-7035283B6057}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD046470-6746-4A73-8B5F-7035283B6057}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{AD046470-6746-4A73-8B5F-7035283B6057}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD046470-6746-4A73-8B5F-7035283B6057}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD046470-6746-4A73-8B5F-7035283B6057}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5CA36073-B595-4641-BFBD-4374D03F7003}
+	EndGlobalSection
+EndGlobal
